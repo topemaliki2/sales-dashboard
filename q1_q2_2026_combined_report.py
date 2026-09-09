@@ -5,7 +5,7 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils.dataframe import dataframe_to_rows
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
-
+import streamlit as st
 # Load the data
 df1 = pd.read_excel('q1_2026_school_charges_cleaned.xlsx')
 df2 = pd.read_excel('q2_2026_school_charges_cleaned.xlsx')
